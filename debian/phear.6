@@ -1,0 +1,79 @@
+.TH PHEAR 6 "November 30, 2011"
+.SH NAME
+phear \- enter the cavez of phear
+.SH SYNOPSIS
+.B phear
+.RB [\-e
+.IR \| < "level filename" >]
+.RB |
+.IR \| [ "level name" ]
+.PP
+.SH OPTIONS
+This program has several arguments:
+.TP
+.B \-e
+Start editor instead of game on a specific level.
+.TP
+.B level\ name
+Name of the level to play, f.ex 01
+.TP
+.B level\ filename
+Filename of the level to edit. f.ex /usr/share/phear/data/levels/01
+.SH "DESCRIPTION"
+.LP 
+This is a boulder dash type of game, for terminals. You walk around in a
+ASCII underground cave system, where you need to keep clear 
+of boulders falling down while you are digging through the dirt 
+searching for diamonds.
+
+To play you have to know these keys:
+.LP 
+right \-  move right
+.LP 
+left  \-  move left
+.LP 
+up    \-  move up
+.LP 
+down  \-  move down
+.LP 
+b     \-  place bomb
+.LP 
+t     \-  detonate bombs
+.LP 
+q     \-  leave game
+.PP
+By picking up a diamond (*) you get 10 points, picking up money ($)
+gives you 100 points. You get one extra life for every 1000 points
+you score.
+
+Move around with the arrow keys or the 2-4-8-6 keys. Press 'k' to 
+commit suicide if you should get stuck.
+
+Got the bombs (%)? Great! Press 'b' to place them, and 't' to detonate
+them all at once. Note that the bombs you place will act just like
+stones, affected by gravity, rolling, and so on..
+
+Watch out for monsters (M) -- if they catch you, you will die. To
+fight back, drop stones on them or blow them up using your bombs.
+
+Pressing 's' will enable/disable sound, 'w' will highlight your
+current position.
+.br
+.SH EDITOR
+.LP
+The editor has its own keys you need to know:
+.LP
+0-9   \-  Keys 0-9 places objects
+.LP
+s     \-  Saves the map
+.LP
+l     \-  Enables lock-mode (lets you draw continuously 
+using the arrow-keys)
+.LP
+q     \-  Quits the editor
+.SH AUTHOR
+Cavez of Phear was written by Tom Rune Flo <tom@x86.no>.
+.PP
+This manual page was written by Håkon Nessjøen <haakon.nessjoen@gmail.com>,
+with parts of it written by Tom Rune Flo <tom@x86.no>,
+for the Debian project (and may be used by others).
