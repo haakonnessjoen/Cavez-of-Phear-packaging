@@ -16,7 +16,7 @@ License: GPL-3+
  details.
  .
  On Debian systems the complete text of  the GNU General Public License v3 can
- be found in the file `/usr/share/common-licenses/GPL-3'.
+ be found in the file "/usr/share/common-licenses/GPL-3".
 
 Files: debian/*
 Copyright: 2011 Håkon Nessjøen <haakon.nessjoen@gmail.com>
